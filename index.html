@@ -1,0 +1,51 @@
+<html>
+<head>
+    <title>QueenB</title>
+    <link rel="stylesheet" href="./style.css"/>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+    <div id="map"></div>
+    <img src="./imgs/1.jpg" class="bg-image" id="bg1"/>
+    <img src="./imgs/2.jpg" class="bg-image" id="bg2"/>
+    <img src="./imgs/3.jpg" class="bg-image" id="bg3"/>
+    <img src="./imgs/4.jpg" class="bg-image" id="bg4"/>
+    <img src="./imgs/5.jpg" class="bg-image" id="bg5"/>
+    <img src="./imgs/6.jpg" class="bg-image" id="bg6" onclick="part2()"/>
+    <img src="./imgs/7.jpg" class="bg-image" id="pt2"/>
+
+    <img src="./imgs/masking_animation_cropped.gif" class="bg-image final" style="background-color: slategray"/>
+    <img src="./imgs/2.svg" class="final graph" style="left: 50px; top: 65%"/>
+    <img src="./imgs/1.svg" class="final graph" style="left: 380px; top: 5%"/>
+    <img src="./imgs/3.svg" class="final graph" style="left: 680px; top: 60%"/>
+    <img src="./imgs/4.svg" class="final graph" style="left: 1280px; top: 22%"/>
+    <img src="./imgs/5.svg" class="final graph" style="left: 1300px; top: 70%"/>
+
+    <div class="final circleBase type2" style="left: 50px; top: 60%"></div>
+    <div class="final circleBase type2" style="left: 380px; top: 30%"></div>
+    <div class="final circleBase type2" style="left: 680px; top: 55%"></div>
+    <div class="final circleBase type2" style="left: 1280px; top: 17%"></div>
+    <div class="final circleBase type2" style="left: 1300px; top: 65%"></div>
+
+    <!--<div class="bar-progress">-->
+        <!--<div class="progress">-->
+            <!--<div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="0"-->
+                 <!--aria-valuemin="0" aria-valuemax="100" style="width: 0%" id="progressbar">-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+
+    <script src="./code.js" type="text/javascript"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDeqdWJBB1IDtbyWCzIY1TVSzSQq0Kk1Ks&callback=initMap"></script>
+
+</body>
+</html>
